@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import time
+from huggingface_hub import hf_hub_download 
 
 # Download files from Hugging Face
 embeddings_path = hf_hub_download(
