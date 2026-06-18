@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import time
 import pickle
+import faiss
 from huggingface_hub import hf_hub_download 
 
 # Download files from Hugging Face
